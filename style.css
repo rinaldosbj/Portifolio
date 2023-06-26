@@ -68,7 +68,7 @@ main {
 .baner {
     font-family: RawLine;
     width: 100%;
-    height: calc(100vh - 400px);
+    height: calc(100vh - 360px);
     background-image: url(Img/Room.png);
     background-repeat: no-repeat;
     background-position: center;
