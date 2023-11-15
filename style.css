@@ -135,6 +135,7 @@ h3 {
 }
 .boxlink:hover {
     transform: scale(1.05);
+    background-color: #588eb6;
 }
 
 /*
@@ -173,9 +174,11 @@ h3 {
     background-size: cover;
     transition: transform 0.5s;
     box-shadow: 1px 1px 3px #111;
+    opacity: 100%;
 }
 .port-projetos a div:hover {
-    transform: scale(1.05); 
+    transform: scale(1.05);
+    opacity: 90%;
 }
 
 .WavePong {
@@ -196,6 +199,14 @@ h3 {
 
 .IGuard {
     background-image: url(Img/IGuard.png);
+}
+
+.Abobrinha {
+    background-image: url(Img/Abobrinha.png);
+}
+
+.Bobble {
+    background-image: url(Img/Bobble.png);
 }
 
 /* Sobre mim */
@@ -400,10 +411,6 @@ footer ul li a:hover{
     html, body {
         margin:0px; 
         padding:0px;
-    }
-
-    header {
-        background-color: #588eb6;
     }
 
     header nav ul li a {
